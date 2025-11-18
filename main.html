@@ -7,10 +7,10 @@
 
 <style>
     .star {
-      width: 0px;
-      height: 0px;
+      width: 0;
+      height: 0;
       border-right: 50px solid transparent;
-      border-bottom: 35px solid yellow;
+      border-bottom: 100px solid yellow; /* Updated for test */
       border-left: 50px solid transparent;
       transform: rotate(35deg);
       position: relative;
@@ -18,13 +18,13 @@
     }
 
     .star:before {
-      border-bottom: 40px solid yellow;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
+      border-bottom: 80px solid yellow;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
       position: absolute;
       height: 0;
       width: 0;
-      top: -25px;
+      top: -55px;
       left: -30px;
       content: "";
       transform: rotate(-35deg);
@@ -33,12 +33,12 @@
     .star:after {
       position: absolute;
       display: block;
-      top: 3px;
-      left: -52px;
+      top: 20px;
+      left: -80px;
       width: 0;
       height: 0;
       border-right: 50px solid transparent;
-      border-bottom: 35px solid yellow;
+      border-bottom: 100px solid yellow;
       border-left: 50px solid transparent;
       content: "";
       transform: rotate(-70deg);
@@ -52,4 +52,5 @@
 
 </body>
 </html>
+
 
